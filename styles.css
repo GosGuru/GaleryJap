@@ -29,6 +29,7 @@ body {
     background-color: #f2f2f2;
     padding: 5px;
     border-radius: 5px;
+<<<<<<< HEAD
     box-shadow: 5px 6px 4px #525252a1;
     display: flex;
     justify-content: center;
@@ -67,4 +68,15 @@ body {
 .derecha {
     transform: rotate(-270deg);
     margin-right: 8px;
+=======
+    box-shadow: 2px 3px #888888;
+    transition: background-color 0.3s, transform 0.3s; 
+
+>>>>>>> 181fa80f460aa9e200c1ff4eb0252db96a32911d
+}
+
+.link-button:hover {
+    background-color: #ff9901;
+    transform: scale(1.05);
+    cursor: pointer;
 }
