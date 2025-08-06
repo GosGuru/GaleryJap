@@ -16,12 +16,12 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
-    transition: background-color 0.3s, transform 0.3s; 
+    transition: background-color 0.3s, transform 0.3s; // Transacion suave para el color de fondo y el tamaño
 
 }
 
 .link-button:hover {
-    background-color: #ff9901;
-    transform: scale(1.05);
-    cursor: pointer;
+    background-color: #ff9901; // Cambia el color de fondo al pasar el mouse
+    transform: scale(1.05); // Aumenta un poco el tamaño del botón
+    cursor: pointer; // Cambia el cursor al pasar el mouse
 }
