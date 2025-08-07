@@ -16,12 +16,25 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
-    transition: background-color 0.3s, transform 0.3s; // Transacion suave para el color de fondo y el tamaño
-
+    transition: background-color 0.3s, transform 0.3s; /* Transacion suave para el color de fondo y el tamaño*/
 }
 
 .link-button:hover {
-    background-color: #ff9901; // Cambia el color de fondo al pasar el mouse
-    transform: scale(1.05); // Aumenta un poco el tamaño del botón
-    cursor: pointer; // Cambia el cursor al pasar el mouse
+    background-color: #ff9901; /* Cambia el color de fondo al pasar el mouse*/
+    transform: scale(1.05); /* Aumenta un poco el tamaño del botón*/
+    cursor: pointer; /* Cambia el cursor al pasar el mouse*/
+}
+
+#figma {
+    border: 50px solid #0D7C01;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(174, 255, 165);
+}
+
+h2 {
+    color: #011101;
+    font-size: 24px;
 }
